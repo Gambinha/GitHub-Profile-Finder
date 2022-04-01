@@ -1,0 +1,86 @@
+#container {
+    width: 100vw;
+    height: 100vh;
+
+    background: linear-gradient(180deg, #A4C9DE 0%, rgba(56, 140, 158, 0.947477) 99.48%);
+
+    display: flex;
+    flex-direction: column;
+}
+
+#container main {
+    width: 100vw;
+    height: 100%;
+}
+
+#container main .wrapper {
+    /* width: 1500px; */
+    max-width: 1440px;
+    height: 100%;
+
+    margin: 0 auto;
+    padding: 40px 10px;
+
+    display: flex;
+    justify-content: space-between;
+
+    /* background-color: lightcoral; */
+}
+
+#container main .wrapper .content {
+    width: 570px;
+    height: 600px;
+
+    /* background-color: lightcoral; */
+}
+
+#container main .wrapper .content .search{
+    width: 100%;
+
+    position: relative;
+}
+
+#container main .wrapper .content .search label {
+    font-size: 18px;
+    font-family: Inter; 
+}
+
+#container main .wrapper .content .search img {
+    position: absolute;
+
+    top: 48px;
+    right: 13px;
+}
+
+#container main .wrapper .content .search input {
+    width: 100%;
+    height: 60px;
+
+    padding: 0 14px;
+    font-size: 18px;
+
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+}
+
+
+#container main .wrapper .content .search input:active {
+    outline: 0;
+}
+
+#container main .wrapper .image img {
+    position: relative;
+
+    bottom: 20px;
+}
+
+#container main .wrapper .content .box {
+    width: 100%;
+    height: 300px;
+
+    margin-top: 40px;
+    border-radius: 8px;
+
+    position: relative;
+}

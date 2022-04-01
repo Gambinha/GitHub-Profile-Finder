@@ -1,0 +1,224 @@
+#profile {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* Header */
+
+#profile .header {
+    flex: 8;
+
+    display: flex;
+
+    padding: 10px;
+
+    border-radius: 8px 8px 0 0;
+    background-color: white;
+}
+
+/* Header-Avatar */
+
+#profile .header .avatar {
+    flex: 2.5;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#profile .header .avatar .avatar-img {
+    flex: 7;
+
+    border: 1px solid black;
+}
+
+#profile .header .avatar .avatar-img img {
+    width: 100%;
+    height: 100%;
+}
+
+#profile .header .avatar .data {
+    flex: 1.5;
+    width: 100%;
+    height: 30px;
+    padding: 0 10px;
+
+    border: 1px solid black;
+
+    background-color: #FFF;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#profile .header .avatar .data h1 {
+    font-family: Inter;
+    font-size: 14px;
+    margin: 0;
+    margin-right: 5px;
+}
+
+#profile .header .avatar .data .number {
+    width: 20px;
+    height: 20px;
+
+    color: #FFF;
+    font-size: 11px;
+
+    border-radius: 3px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile .header .avatar .data .n1 {
+    background-color: #45AF3C;
+}
+
+#profile .header .avatar .data .n2 {
+    background-color: #439DBA;
+}
+
+/* Header-Texts */
+
+#profile .header .texts {
+    flex: 7.5;
+    padding: 0 10px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#profile .header .texts h2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#profile .header .texts h2 span {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#profile .header .texts .repositories {
+    width: 100%;
+    height: 100%;
+    padding: 6px 0;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-top: -10px;
+}
+
+#profile .header .texts .repositories .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#profile .header .texts .repositories .title h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#profile .header .texts .repositories .title span {
+    font-weight: 300;
+}
+
+#profile .header .texts .repositories .repos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: -10px;
+
+    height: 100%;
+}
+
+#profile .header .texts .repositories .repos .each-repo {
+    width: 100%;
+    padding: 3.8px 4px;
+
+    font-size: 14px;
+
+    border-bottom: 1px solid black;
+    /* border-left: 1px solid black; */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#profile .header .texts .repositories .repos .each-repo a {
+    text-decoration: none;
+    color: black;
+}
+
+#profile .header .texts .repositories .repos .each-repo img {
+    width: 18px;
+    height: 90%;
+
+    border: 0;
+}
+
+/* Header */
+
+#profile .bottom {
+    flex: 2;
+    padding: 0 15px;
+
+    border-radius: 0 0 8px 8px;
+    background-color: #74649F;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#profile .bottom .networks a img {
+    width: 40px;
+    height: 35px;
+
+    margin-right: 10px;
+}
+
+#profile .bottom button {
+    width: 150px;
+    height: 35px;
+
+    border-radius: 6px;
+
+    background-color: #84B57C;
+    border: 0;
+    outline: 0;
+
+    cursor: pointer;
+
+    transition: background 0.4s;
+}
+
+#profile .bottom button:hover {
+    background-color: #6FA765;
+}
+
+#profile .bottom button a {
+    width: 100%;
+    height: 100%;
+
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
